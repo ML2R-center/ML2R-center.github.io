@@ -1,0 +1,32 @@
+#
+# Add an entry to publish your software on the GitHub page.
+#
+# - name: title of the supplemented paper OR name of the library
+#   type: "e" OR "l"
+#   url: where to link (ONLY PUBLIC REPOSITORIES)
+#   description: paper authors and venue OR sentence about the library
+#   areas: [ "h", "r", "t", "q", "o" ]
+#
+# The type shortcuts stand for "experiment" and "library" and are displayed
+# as badges next to the title. The area shortcuts "hybrid", "resource-aware",
+# "trustworthy", "quantum", and "other" will be displayed similarly. All
+# badges can be used as a filter criterion.
+#
+
+- name: CriticalDifferenceDiagrams.jl
+  type: l
+  url: https://github.com/mirkobunse/CriticalDifferenceDiagrams.jl
+  description: Plot critical difference diagrams in Julia.
+  areas: [ "o" ]
+
+- name: MetaConfigurations.jl
+  type: l
+  url: https://github.com/mirkobunse/MetaConfigurations.jl
+  description: Define a set of configurations (e.g, to specify experiments) as a single, more abstract and comprehensive *meta*-configuration.
+  areas: [ "o" ]
+
+- name: Optimal Probabilistic Classification in Active Class Selection
+  type: e
+  url: https://github.com/mirkobunse/acs-icdm20
+  description: M. Bunse, D. Weichert, A. Kister, and K. Morik at ICDM 2020.
+  areas: [ "r", "t", "h" ]

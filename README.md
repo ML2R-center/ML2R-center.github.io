@@ -4,13 +4,26 @@ GitHub pages featuring ML2R-affiliated software repositories.
 
 ## Adding content
 
-To add your software repositories, you simply need to add a list entry to the `index.md` Markdown file (you can even do so in GitHub's online editor without cloning the project locally). GitHub pages will re-build the website accordingly.
+Adding an entry to [`_data/software.yml`](https://github.com/ML2R-center/ML2R-center.github.io/blob/main/_data/software.yml) will publish your software on the GitHub page.
 
-## Local preview
+```yaml
+- name: title of the supplemented paper OR name of the library
+  type: "e" OR "l"
+  url: where to link (ONLY PUBLIC REPOSITORIES)
+  description: paper authors and venue OR sentence about the library
+  areas: [ "h", "r", "t", "q", "o" ]
+```
+
+Here, the `type` shortcuts stand for "experiment" and "library" and will be displayed as badges next to the title. The `area` shortcuts "hybrid", "resource-aware", "trustworthy", "quantum", and "other" will be displayed similarly. All badges can be used as a filter criterion in the search bar.
+
+When a change is pushed, GitHub pages will re-build the website immediately.
+
+
+## Local preview and web development
 
 Having cloned the project, you can build the GitHub page locally with [Jekyll](https://jekyllrb.com/). 
 
-**Prerequisites:** The following steps install all necessary dependencies.
+**Prerequisites:** The following steps install the necessary dependencies.
 
 ```
 sudo apt-get install rubygems
@@ -26,3 +39,5 @@ bundle install
 cd /path/to/ml2r-center.github.io
 bundle exec jekyll serve
 ```
+
+The website is based on Jekyll's [minima](https://github.com/jekyll/minima) theme. You can change the layout by copying the default file from this theme to this repository and make the desired changes.
