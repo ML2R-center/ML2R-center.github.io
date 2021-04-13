@@ -14,7 +14,7 @@ layout: default
     <ul class="list">
       {% for item in site.data.software %}
         <li>
-          <a href="{{ item.url }}">{{ item.name }}</a>
+          <a href="{{ item.url }}" class="name">{{ item.name }}</a>
           <span class="badges">
             {% if item.type == "e" %}
               [experiment]
