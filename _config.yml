@@ -1,0 +1,12 @@
+title: ML2R software repositories
+description: A hub for the software we develop.
+author: "Competence Center Machine Learning Rhine-Ruhr"
+
+theme: minima
+
+exclude: 
+    - .gitignore
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
