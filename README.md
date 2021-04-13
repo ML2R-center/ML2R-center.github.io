@@ -1,4 +1,4 @@
-# https://ml2r-center.github.io/
+# [ml2r-center.github.io](https://ml2r-center.github.io/)
 
 GitHub pages featuring ML2R-affiliated software repositories.
 
