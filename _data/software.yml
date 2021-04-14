@@ -30,3 +30,10 @@
   url: https://github.com/mirkobunse/acs-icdm20
   description: M. Bunse, D. Weichert, A. Kister, and K. Morik at ICDM 2020.
   areas: [ "r", "t", "h" ]
+
+- name: "HOPS: Probabilistic Subtree Mining for Small and Large Graphs"
+  type: e
+  url: https://github.com/ML2R-center/hops
+  description: P. Welke, F. Seiffarth, M. Kamp and S. Wrobel at KDD 2020.
+  areas: [ "r", "h" ]
+  biblink: https://dblp.uni-trier.de/rec/conf/kdd/WelkeSKW20.html?view=bibtex
