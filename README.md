@@ -26,10 +26,10 @@ Having cloned the project, you can build the GitHub page locally with [Jekyll](h
 **Prerequisites:** The following steps install the necessary dependencies.
 
 ```
-sudo apt-get install rubygems
+sudo apt-get install rubygems ruby-dev
 
 cd /path/to/ml2r-center.github.io
-gem update bundler
+sudo gem update bundler
 bundle install
 ```
 
