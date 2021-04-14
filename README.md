@@ -14,16 +14,19 @@ Adding an entry to [`_data/software.yml`](https://github.com/ML2R-center/ML2R-ce
   areas: [ "h", "r", "t", "q", "o" ]
 ```
 
-Here, the `type` shortcuts stand for "experiment" and "library" and will be displayed as badges next to the title. The `area` shortcuts "hybrid", "resource-aware", "trustworthy", "quantum", and "other" will be displayed similarly. All badges can be used as a filter criterion in the search bar.
+**Explanation:** Here, the `type` shortcuts stand for "experiment" and "library" and will be displayed as badges next to the title. The `area` shortcuts "hybrid", "resource-aware", "trustworthy", "quantum", and "other" will be displayed similarly. All badges can be used as a filter criterion in the search bar. When a change is pushed to the `main` branch, GitHub pages will re-build the website immediately.
 
-When a change is pushed, GitHub pages will re-build the website immediately.
+**Need help?** Instead of pushing to the `main` branch directly, feel free to open a pull request and let someone check your entries.
 
+## Feature requests
 
-## Local preview and web development
+Please use the issue tracker of this repository to discuss potential improvements.
+
+## Development
 
 Having cloned the project, you can build the GitHub page locally with [Jekyll](https://jekyllrb.com/). 
 
-**Prerequisites:** The following steps install the necessary dependencies.
+**Prerequisites:** The following steps install the dependencies.
 
 ```
 sudo apt-get install rubygems ruby-dev
@@ -40,4 +43,4 @@ cd /path/to/ml2r-center.github.io
 bundle exec jekyll serve
 ```
 
-The website is based on Jekyll's [minima](https://github.com/jekyll/minima) theme. You can change the layout by copying the default file from this theme to this repository and make the desired changes.
+The website is based on Jekyll's [minima](https://github.com/jekyll/minima) theme. You can change the layout by copying the default file from this theme to the repository and make the desired changes.
