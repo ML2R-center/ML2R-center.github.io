@@ -15,11 +15,9 @@ Adding an entry to [`_data/software.yml`](https://github.com/ML2R-center/ML2R-ce
   biblink: url to obtain bibtex of corresponding publication, e.g. dblp (see below)
 ```
 
-Here, the `type` shortcuts stand for "experiment" and "library" and will be displayed as badges next to the title. The `area` shortcuts "hybrid", "resource-aware", "trustworthy", "quantum", and "other" will be displayed similarly. All badges can be used as a filter criterion in the search bar.
+**Explanation:** Here, the `type` shortcuts stand for "experiment" and "library" and will be displayed as badges next to the title. The `area` shortcuts "hybrid", "resource-aware", "trustworthy", "quantum", and "other" will be displayed similarly. All badges can be used as a filter criterion in the search bar. When a change is pushed to the `main` branch, GitHub pages will re-build the website immediately.
 
-When a change is pushed, GitHub pages will re-build the website immediately.
-
-### Bibtex Link
+**Bibtex Link:**
 Providing a bibtex link is optional. If you don't want to have it, please remove the biblink field from your entry.
 
 If you like / it is applicable, you can provide a link to a reference to a corresponding article in bibtex format. 
@@ -33,17 +31,25 @@ https://dblp.uni-trier.de/rec/journals/ki/Wrobel97.html?view=bibtex
 
 Otherwise, any other (persistent!) url will do. Google scholar, e.g. also provides references in bibtex format. 
 
-## Local preview and web development
+
+**Need help?** Instead of pushing to the `main` branch directly, feel free to open a pull request and let someone check your entries.
+
+## Feature requests
+
+Please use the issue tracker of this repository to discuss potential improvements.
+
+
+## Development
 
 Having cloned the project, you can build the GitHub page locally with [Jekyll](https://jekyllrb.com/). 
 
-**Prerequisites:** The following steps install the necessary dependencies.
+**Prerequisites:** The following steps install the dependencies.
 
 ```
-sudo apt-get install rubygems
+sudo apt-get install rubygems ruby-dev
 
 cd /path/to/ml2r-center.github.io
-gem update bundler
+sudo gem update bundler
 bundle install
 ```
 
