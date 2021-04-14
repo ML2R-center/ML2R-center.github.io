@@ -4,7 +4,7 @@ GitHub pages featuring ML2R-affiliated software repositories.
 
 ## Adding content
 
-Adding an entry to [`_data/software.yml`](https://github.com/ML2R-center/ML2R-center.github.io/blob/main/_data/software.yml) will publish your software on the GitHub page.
+Adding an entry to `_data/software.yml` will publish your software on the GitHub page. You can [edit this file online](https://github.com/ML2R-center/ML2R-center.github.io/edit/main/_data/software.yml).
 
 ```yaml
 - name: title of the supplemented paper OR name of the library
