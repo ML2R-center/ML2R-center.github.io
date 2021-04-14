@@ -35,7 +35,11 @@ layout: default
               {% endif %}
             {% endfor %}
           </span>
-          <p class="description">{{ item.description }}</p>
+          <p class="description">{{ item.description }}
+          {% if item.biblink %}
+          <a href="{{ item.biblink }}" class="biblink">[bibtex]</a>
+          {% endif%}
+          </p>
         </li>
       {% endfor %}
     </ul>
