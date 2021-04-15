@@ -38,3 +38,10 @@
   description: P. Welke, F. Seiffarth, M. Kamp and S. Wrobel at KDD 2020.
   areas: [ "r", "h" ]
   biblink: https://dblp.uni-trier.de/rec/conf/kdd/WelkeSKW20.html?view=bibtex
+
+- name: "Probabilistic Gap Filling with Machine Learning - probgf"
+  type: e
+  url: https://github.com/raphischer/probgapfilling
+  description: R. Fischer, N. Piatkowski, C. Pelletier, G. Webb, F. Petitjean, and K. Morik at DSAA 2020.
+  areas: [ "h" ]
+  biblink: https://dblp.uni-trier.de/rec/conf/dsaa/FischerPPWPM20.html?view=bibtex
