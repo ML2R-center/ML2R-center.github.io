@@ -8,42 +8,35 @@ Adding an entry to `_data/software.yml` will publish your software on the GitHub
 
 ```yaml
 - name: title of the supplemented paper OR name of the library
-  type: "e" OR "l"
+  type: "e" OR "l" (see below)
   url: where to link (ONLY PUBLIC REPOSITORIES)
   description: paper authors and venue OR sentence about the library
-  areas: [ "h", "r", "t", "q", "o" ]
-  biblink: url to obtain bibtex of corresponding publication, e.g. dblp (see below)
-  keywords: [ "optional", "keywords", "that are not redundant(!) with the description" ]
+  areas: [ "h", "r", "t", "q", "o" ] (see below)
+  biburl: optional URL of a corresponding BibTeX reference
+  keywords: [ "optional", "keywords", "that are not redundant with the description" ]
 ```
 
-- The `type` and `areas` shortcuts will display colored badges.
+- The shortcuts in `type` and `areas` will display colored badges (see the table below).
 - All of the content (name, type, areas, description, keywords) can be used to search for entries.
+- The BibTeX URL is optional; remove the field if not applicable.
 - Only use keywords that do not appear in the rest of your entry.
 - When a change is pushed to the `main` branch, GitHub pages will re-build the website immediately.
 
-shortcut | field | meaning
--------- | ----- | -------
-e        | type  | experiment
-l        | type  | library
-h        | areas | hybrid
-r        | areas | resource-aware
-t        | areas | trustworthy
-q        | areas | quantum
-o        | areas | other
+shortcut | resulting badge
+-------- | -------
+e        | type:experiment
+l        | type:library
+h        | area:hybrid
+r        | area:resource-aware
+t        | area:trustworthy
+q        | area:quantum
+o        | area:other
 
-**Bibtex Link:**
-Providing a bibtex link is optional. If you don't want to have it, please remove the biblink field from your entry.
+**BibTeX:** Any persistent(!) URL to a BibTeX entry will work, e.g. via Google Scholar or via DBLP. On DBLP, you can navigate to your publication and click on the download button, which should give you a URL that ends with `?view=bibtex`:
 
-If you like / it is applicable, you can provide a link to a reference to a corresponding article in bibtex format. 
-If your paper is already published and indexed by dblp, you can navigate to your publication, e.g.
-
-https://dblp.uni-trier.de/rec/journals/ki/Wrobel97.html
-
-and select bibtex format by clicking on the little download button, or by appending ``?view=bibtex`` to the url:
-
+```
 https://dblp.uni-trier.de/rec/journals/ki/Wrobel97.html?view=bibtex
-
-Otherwise, any other (persistent!) url will do. Google scholar, e.g. also provides references in bibtex format. 
+```
 
 
 ## Need help?
@@ -56,7 +49,7 @@ Instead of pushing to the `main` branch directly, feel free to open a pull reque
 Please use the issue tracker of this repository to discuss potential improvements.
 
 
-## Development (not needed to add content)
+## Development: beyond adding content
 
 To change the inner workings of the GitHub page, clone the project and build the page locally with [Jekyll](https://jekyllrb.com/).
 
