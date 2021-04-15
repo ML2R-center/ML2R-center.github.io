@@ -26,13 +26,10 @@ ul.list {
       background-color: #81b62c20;
     }
 
-    > p {
-      margin-bottom: 0px;
+    > p.description {
+      margin-top: $spacing-unit / 8;
+      margin-bottom: $spacing-unit / 8;
       text-align: initial;
-    }
-
-    > .badges {
-      margin-top: $spacing-unit / 4;
     }
   }
 }
