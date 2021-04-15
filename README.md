@@ -13,9 +13,13 @@ Adding an entry to `_data/software.yml` will publish your software on the GitHub
   description: paper authors and venue OR sentence about the library
   areas: [ "h", "r", "t", "q", "o" ]
   biblink: url to obtain bibtex of corresponding publication, e.g. dblp (see below)
+  keywords: [ "optional", "keywords", "that are not redundant(!) with the description" ]
 ```
 
-**Explanation:** The `type` and `areas` shortcuts will display badges which can be used as a filter criterion in the search bar. When a change is pushed to the `main` branch, GitHub pages will re-build the website immediately.
+- The `type` and `areas` shortcuts will display colored badges.
+- All of the content (name, type, areas, description, keywords) can be used to search for entries.
+- Only use keywords that do not appear in the rest of your entry.
+- When a change is pushed to the `main` branch, GitHub pages will re-build the website immediately.
 
 shortcut | field | meaning
 -------- | ----- | -------
@@ -42,16 +46,21 @@ https://dblp.uni-trier.de/rec/journals/ki/Wrobel97.html?view=bibtex
 Otherwise, any other (persistent!) url will do. Google scholar, e.g. also provides references in bibtex format. 
 
 
-**Need help?** Instead of pushing to the `main` branch directly, feel free to open a pull request and let someone check your entries.
+## Need help?
+
+Instead of pushing to the `main` branch directly, feel free to open a pull request and let someone check your entries.
+
 
 ## Feature requests
 
 Please use the issue tracker of this repository to discuss potential improvements.
 
 
-## Development
+## Development (not needed to add content)
 
-Having cloned the project, you can build the GitHub page locally with [Jekyll](https://jekyllrb.com/). 
+To change the inner workings of the GitHub page, clone the project and build the page locally with [Jekyll](https://jekyllrb.com/).
+
+**Important:** Make sure that your local build reflects the desired effects of your changes before pushing to the `main` branch.
 
 **Prerequisites:** The following steps install the dependencies.
 

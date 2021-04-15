@@ -8,7 +8,7 @@ layout: default
 
   <div id="software">
     <p style="display: flex;">
-      <input class="search" placeholder="Filter by name, type, etc." style="flex: 1;" />
+      <input class="search" placeholder="Filter by anything, e.g. &quot;type:library&quot;" style="flex: 1;" />
     </p>
     <ul class="list">
       {% for item in site.data.software %}
@@ -45,6 +45,11 @@ layout: default
                 <span class="other badge">area:other</span>
               {% endif %}
             {% endfor %}
+            {% if item.keywords %}
+              {% for keyword in item.keywords %}
+                <span class="keyword badge">{{ keyword }}</span>
+              {% endfor %}
+            {% endif%}
           </div>
         </li>
       {% endfor %}

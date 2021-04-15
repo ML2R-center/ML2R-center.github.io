@@ -16,14 +16,16 @@
 - name: CriticalDifferenceDiagrams.jl
   type: l
   url: https://github.com/mirkobunse/CriticalDifferenceDiagrams.jl
-  description: Plot critical difference diagrams in Julia.
+  description: Plot critical difference diagrams with Julia and Tikz.
   areas: [ "o" ]
+  keywords: [ "hypothesis testing", "validation" ]
 
 - name: MetaConfigurations.jl
   type: l
   url: https://github.com/mirkobunse/MetaConfigurations.jl
-  description: Define a set of configurations (e.g, to specify experiments) as a single, more abstract and comprehensive meta-configuration.
+  description: Derive a set of configurations (e.g, to specify experiments) from a single, more abstract and comprehensive meta-configuration.
   areas: [ "o" ]
+  keywords: [ "julia" ]
 
 - name: Optimal Probabilistic Classification in Active Class Selection
   type: e
@@ -31,6 +33,7 @@
   description: M. Bunse, D. Weichert, A. Kister, and K. Morik at ICDM 2020.
   areas: [ "r", "t" ]
   biblink: https://dblp.org/rec/conf/icdm/BunseWKM20?view=bibtex
+  keywords: [ "information theory" ]
 
 - name: "HOPS: Probabilistic Subtree Mining for Small and Large Graphs"
   type: e

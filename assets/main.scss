@@ -76,6 +76,17 @@ ul.list {
   &.other {
     background-color: #fab82e;
   }
+  &.keyword {
+    background-color: transparent;
+    color: $text-color;
+    font-weight: normal;
+    padding-left: 0px;
+    padding-right: 0px;
+    &::before {
+      content: "\b7";
+      margin-right: 4px;
+    }
+  }
 }
 
 .biblink {
