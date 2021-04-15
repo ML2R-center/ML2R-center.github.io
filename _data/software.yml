@@ -22,14 +22,14 @@
 - name: MetaConfigurations.jl
   type: l
   url: https://github.com/mirkobunse/MetaConfigurations.jl
-  description: Define a set of configurations (e.g, to specify experiments) as a single, more abstract and comprehensive *meta*-configuration.
+  description: Define a set of configurations (e.g, to specify experiments) as a single, more abstract and comprehensive meta-configuration.
   areas: [ "o" ]
 
 - name: Optimal Probabilistic Classification in Active Class Selection
   type: e
   url: https://github.com/mirkobunse/acs-icdm20
   description: M. Bunse, D. Weichert, A. Kister, and K. Morik at ICDM 2020.
-  areas: [ "r", "t", "h" ]
+  areas: [ "r", "t" ]
   biblink: https://dblp.org/rec/conf/icdm/BunseWKM20?view=bibtex
 
 - name: "HOPS: Probabilistic Subtree Mining for Small and Large Graphs"
