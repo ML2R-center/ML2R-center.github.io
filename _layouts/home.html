@@ -3,49 +3,56 @@ layout: default
 ---
 
 <div class="home">
-<!--   {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%} -->
 
   {{ content }}
 
   <div id="software">
-    <p><input class="search" placeholder="Filter repositories" /></p>
+    <p style="display: flex;">
+      <input class="search" placeholder="Filter by name, type, etc" style="flex: 1;" />
+    </p>
     <ul class="list">
       {% for item in site.data.software %}
-        <li>
+        {% if item.type == "e" %}
+          <li class="experiment">
+        {% elsif item.type == "l" %}
+          <li class="library">
+        {% else %}
+          <li>
+        {% endif %}
           <a href="{{ item.url }}" class="name">{{ item.name }}</a>
-          <span class="badges">
+          <p class="description">
+            {{ item.description }}
+            {% if item.biblink %}
+              <a href="{{ item.biblink }}" class="biblink">[bibtex]</a>
+            {% endif%}
+          </p>
+          <div class="badges">
             {% if item.type == "e" %}
-              [experiment]
+              <span class="experiment badge">type:experiment</span>
             {% elsif item.type == "l" %}
-              [library]
+              <span class="library badge">type:library</span>
             {% endif %}
             {% for area in item.areas %}
               {% if area == "h" %}
-                [hybrid]
+                <span class="hybrid badge">area:hybrid</span>
               {% elsif area == "r" %}
-                [resource-aware]
+                <span class="resourceaware badge">area:resource-aware</span>
               {% elsif area == "t" %}
-                [trustworthy]
+                <span class="trustworthy badge">area:trustworthy</span>
               {% elsif area == "q" %}
-                [quantum]
+                <span class="quandum badge">area:quantum</span>
               {% elsif area == "o" %}
-                [other]
+                <span class="other badge">area:other</span>
               {% endif %}
             {% endfor %}
-          </span>
-          <p class="description">{{ item.description }}
-          {% if item.biblink %}
-          <a href="{{ item.biblink }}" class="biblink">[bibtex]</a>
-          {% endif%}
-          </p>
+          </div>
         </li>
       {% endfor %}
     </ul>
   </div>
   <script>
     var softwareList = new List('software', { valueNames: [ 'name', 'badges', 'description' ] });
+    softwareList.sort('name');
   </script>
 
 </div>

@@ -3,3 +3,67 @@
 ---
 
 @import "minima";
+
+p {
+  text-align: justify;
+}
+
+ul.list {
+  margin-left: 0px;
+
+  > li {
+    display: block;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: $spacing-unit / 4 $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 2;
+
+    &.library {
+      background-color: #00957f20;
+    }
+
+    &.experiment {
+      background-color: #81b62c20;
+    }
+
+    > p {
+      margin-bottom: 0px;
+      text-align: initial;
+    }
+
+    > .badges {
+      margin-top: $spacing-unit / 4;
+    }
+  }
+}
+
+.badge {
+  background-color: gray;
+  border-radius: 1000px;
+  padding: 1px 7.5px;
+  font-size: x-small;
+  font-weight: bold;
+  color: white;
+
+  &.library {
+    background-color: #00957f;
+  }
+  &.experiment {
+    background-color: #81b62c;
+  }
+  &.hybrid {
+    background-color: #048ad1;
+  }
+  &.resourceaware {
+    background-color: #d547ca;
+  }
+  &.trustworthy {
+    background-color: #6975fe;
+  }
+  &.quantum {
+    background-color: #ab6eaf;
+  }
+  &.other {
+    background-color: #fab82e;
+  }
+}
