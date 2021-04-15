@@ -30,6 +30,7 @@
   url: https://github.com/mirkobunse/acs-icdm20
   description: M. Bunse, D. Weichert, A. Kister, and K. Morik at ICDM 2020.
   areas: [ "r", "t", "h" ]
+  biblink: https://dblp.org/rec/conf/icdm/BunseWKM20?view=bibtex
 
 - name: "HOPS: Probabilistic Subtree Mining for Small and Large Graphs"
   type: e
