@@ -15,7 +15,17 @@ Adding an entry to `_data/software.yml` will publish your software on the GitHub
   biblink: url to obtain bibtex of corresponding publication, e.g. dblp (see below)
 ```
 
-**Explanation:** Here, the `type` shortcuts stand for "experiment" and "library" and will be displayed as badges next to the title. The `area` shortcuts "hybrid", "resource-aware", "trustworthy", "quantum", and "other" will be displayed similarly. All badges can be used as a filter criterion in the search bar. When a change is pushed to the `main` branch, GitHub pages will re-build the website immediately.
+**Explanation:** The `type` and `areas` shortcuts will display badges which can be used as a filter criterion in the search bar. When a change is pushed to the `main` branch, GitHub pages will re-build the website immediately.
+
+shortcut | field | meaning
+-------- | ----- | -------
+e        | type  | experiment
+l        | type  | library
+h        | areas | hybrid
+r        | areas | resource-aware
+t        | areas | trustworthy
+q        | areas | quantum
+o        | areas | other
 
 **Bibtex Link:**
 Providing a bibtex link is optional. If you don't want to have it, please remove the biblink field from your entry.
