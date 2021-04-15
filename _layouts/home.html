@@ -8,7 +8,7 @@ layout: default
 
   <div id="software">
     <p style="display: flex;">
-      <input class="search" placeholder="Filter by name, type, etc" style="flex: 1;" />
+      <input class="search" placeholder="Filter by name, type, etc." style="flex: 1;" />
     </p>
     <ul class="list">
       {% for item in site.data.software %}
@@ -23,7 +23,7 @@ layout: default
           <p class="description">
             {{ item.description }}
             {% if item.biblink %}
-              <a href="{{ item.biblink }}" class="biblink">[bibtex]</a>
+              <a href="{{ item.biblink }}" class="biblink"></a>
             {% endif%}
           </p>
           <div class="badges">

@@ -27,9 +27,22 @@ ul.list {
     }
 
     > p.description {
-      margin-top: $spacing-unit / 8;
-      margin-bottom: $spacing-unit / 8;
+      margin-top: $spacing-unit / 10;
+      margin-bottom: $spacing-unit / 10;
+      margin-left: $spacing-unit / 2;
       text-align: initial;
+    }
+
+    > div.badges {
+      margin-left: $spacing-unit / 2;
+
+      -webkit-touch-callout: none; /* iOS Safari */
+        -webkit-user-select: none; /* Safari */
+         -khtml-user-select: none; /* Konqueror HTML */
+           -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+                user-select: none; /* Non-prefixed version, currently
+                                      supported by Chrome, Edge, Opera and Firefox */
     }
   }
 }
@@ -62,5 +75,23 @@ ul.list {
   }
   &.other {
     background-color: #fab82e;
+  }
+}
+
+.biblink {
+  display: inline-block;
+  height: $base-font-size;
+  width: 3.08 * $base-font-size;
+  vertical-align: bottom;
+  margin-left: $spacing-unit / 10;
+  background-image: url("{{ "/assets/bibtex.svg" | relative_url }}");
+  background-size: 100% 300%;
+
+  &:visited {
+    background-position: 0 200%;
+  }
+
+  &:hover {
+    background-position: 0 100%;
   }
 }
