@@ -26,6 +26,10 @@ ul.list {
       background-color: #81b62c20;
     }
 
+    &.education {
+      background-color: #fab82e20;
+    }
+
     > p.description {
       margin-top: $spacing-unit / 10;
       margin-bottom: $spacing-unit / 10;
