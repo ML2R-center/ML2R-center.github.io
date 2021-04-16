@@ -61,6 +61,9 @@ ul.list {
   &.experiment {
     background-color: #81b62c;
   }
+  &.education {
+    background-color: #fab82e;
+  }
   &.hybrid {
     background-color: #048ad1;
   }
@@ -74,7 +77,7 @@ ul.list {
     background-color: #ab6eaf;
   }
   &.other {
-    background-color: #fab82e;
+    background-color: #808080;
   }
   &.keyword {
     background-color: transparent;

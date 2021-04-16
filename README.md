@@ -8,7 +8,7 @@ Adding an entry to `_data/software.yml` will publish your software on the GitHub
 
 ```yaml
 - name: title of the supplemented paper OR name of the library
-  type: "e" OR "l" (see below)
+  type: "e" OR "l" OR "t" (see below)
   url: where to link (ONLY PUBLIC REPOSITORIES)
   description: paper authors and venue OR sentence about the library
   areas: [ "h", "r", "t", "q", "o" ] (see below)
@@ -26,6 +26,7 @@ shortcut | resulting badge
 -------- | -------
 e        | type:experiment
 l        | type:library
+s        | type:education
 h        | area:hybrid
 r        | area:resource-aware
 t        | area:trustworthy

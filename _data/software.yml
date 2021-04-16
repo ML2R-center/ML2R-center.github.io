@@ -13,6 +13,7 @@
 # -------- | -------
 # e        | type:experiment
 # l        | type:library
+# s        | type:education
 # h        | area:hybrid
 # r        | area:resource-aware
 # t        | area:trustworthy

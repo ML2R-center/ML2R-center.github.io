@@ -31,6 +31,8 @@ layout: default
               <span class="experiment badge">type:experiment</span>
             {% elsif item.type == "l" %}
               <span class="library badge">type:library</span>
+            {% elsif item.type == "s" %}
+              <span class="education badge">type:education</span> 
             {% endif %}
             {% for area in item.areas %}
               {% if area == "h" %}
@@ -40,7 +42,7 @@ layout: default
               {% elsif area == "t" %}
                 <span class="trustworthy badge">area:trustworthy</span>
               {% elsif area == "q" %}
-                <span class="quandum badge">area:quantum</span>
+                <span class="quantum badge">area:quantum</span>
               {% elsif area == "o" %}
                 <span class="other badge">area:other</span>
               {% endif %}
