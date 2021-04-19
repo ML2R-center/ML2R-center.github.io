@@ -46,7 +46,7 @@
 - name: "HOPS: Probabilistic Subtree Mining for Small and Large Graphs"
   type: e
   url: https://github.com/ML2R-center/hops
-  description: P. Welke, F. Seiffarth, M. Kamp and S. Wrobel at KDD 2020.
+  description: P. Welke, F. Seiffarth, M. Kamp, and S. Wrobel at KDD 2020.
   areas: [ "r", "h" ]
   biburl: https://dblp.uni-trier.de/rec/conf/kdd/WelkeSKW20.html?view=bibtex
 
@@ -60,14 +60,14 @@
 - name: "EAO: Evolutionary Algorithm Optimization"
   type: l
   url: https://github.com/smuecke/eao
-  description: Python toolkit for performing evolutionary optimization on custom domains
+  description: Python toolkit for performing evolutionary optimization on custom domains.
   areas: [ "r", "o" ]
   keywords: [ "evolutionary optimization", "genetic programming", "optimization" ]
   
 - name: Decision Snippet Features
   type: "e" 
   url: https://github.com/pwelke/DecisionSnippetFeatures
-  description: "P. Welke, F. Alkhoury, C. Bauckhage, and S. Wrobel at ICPR 2021"
+  description: "P. Welke, F. Alkhoury, C. Bauckhage, and S. Wrobel at ICPR 2021."
   areas: [ "h", "r" ]
   keywords: [ "random forest", "model compression", "frequent subgraph mining" ]
   
