@@ -56,3 +56,10 @@
   description: R. Fischer, N. Piatkowski, C. Pelletier, G. Webb, F. Petitjean, and K. Morik at DSAA 2020.
   areas: [ "h" ]
   biburl: https://dblp.uni-trier.de/rec/conf/dsaa/FischerPPWPM20.html?view=bibtex
+  
+- name: "EAO: Evolutionary Algorithm Optimization"
+  type: l
+  url: https://github.com/smuecke/eao
+  description: Python toolkit for performing evolutionary optimization on custom domains
+  areas: [ "r", "o" ]
+  keywords: [ "evolutionary optimization", "genetic programming", "optimization" ]
