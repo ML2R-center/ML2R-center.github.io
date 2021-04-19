@@ -64,8 +64,7 @@
   areas: [ "r", "o" ]
   keywords: [ "evolutionary optimization", "genetic programming", "optimization" ]
   
-  
-  - name: Decision Snippet Features
+- name: Decision Snippet Features
   type: "e" 
   url: https://github.com/pwelke/DecisionSnippetFeatures
   description: "P. Welke, F. Alkhoury, C. Bauckhage, and S. Wrobel: Decision Snippet Features. at ICPR 2021"
