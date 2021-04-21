@@ -71,4 +71,19 @@
   areas: [ "h", "r" ]
   keywords: [ "random forest", "model compression", "frequent subgraph mining" ]
   
-  
+- name: "Generalized Isolation Forest"
+  type: "l"
+  url: https://github.com/philippjh/genif
+  description: "S. Buschjäger, PJ. Honysz, and K. Morik: <br /> Randomized outlier detection with trees. <br .> International Journal of Data Science and Analytics (2020)."
+  areas: [  "r" ]
+  biburl: https://doi.org/10.1007/s41060-020-00238-w
+  keywords: [ "outlier detection", "isolation forests" ]
+
+- name: "Exemplar-based clustering for GPUs"
+  type: "l"
+  url: https://github.com/philippjh/exemcl
+  description: "PJ. Honysz, S. Buschjäger, & K. Morik. (2021). <br /> GPU-Accelerated Optimizer-Aware Evaluation of Submodular Exemplar Clustering."
+  areas: [ "r" ]
+  biburl: https://dblp.uni-trier.de/rec/journals/corr/abs-2101-08763.html?view=bibtex
+  keywords: [ "submodular functions", "exemplar clustering", "cuda"]
+ 
