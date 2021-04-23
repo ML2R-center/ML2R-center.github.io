@@ -33,14 +33,14 @@
   url: https://github.com/sbuschjaeger/Pysembles
   description: PyTorch + Ensembles = Pysembles. This is a collection of ensembling algorithms implemented in PyTorch.
   areas: [ "o" ]
-  keywords: [ "ensembles", "deep learning", "Negative Correlation Learning", "Bagging", "Boosting"]
+  keywords: [ "deep learning", "negative correlation learning", "bagging", "boosting"]
 
 - name: Submodular Streaming Maximization
   type: l
   url: https://github.com/sbuschjaeger/SubmodularStreamingMaximization
   description: A C++ package for streaming submodular function maximization with Python bindings.
   areas: [ "r", "o" ]
-  keywords: [ "submodular function maximization", "streaming", "data summaries", "summarization" ]
+  keywords: [ "submodular function maximization", "data summaries", "summarization" ]
 
 - name: CriticalDifferenceDiagrams.jl
   type: l
