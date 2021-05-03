@@ -107,4 +107,11 @@
   areas: [ "r" ]
   biburl: https://dblp.uni-trier.de/rec/journals/corr/abs-2101-08763.html?view=bibtex
   keywords: [ "submodular functions", "exemplar clustering", "cuda"]
+  
+- name: Neural Network Code Generator
+  type: l
+  url: https://github.com/iml130/nncg
+  description: Compiler to generate C code from a trained neural network (Keras).
+  areas: [ "r" ]
+  keywords: [ "Internet of Things", "Compiler", "Neural Network]
  
