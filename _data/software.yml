@@ -115,3 +115,11 @@
   areas: [ "r" ]
   biburl: https://ieeexplore.ieee.org/abstract/document/9216395
   keywords: [ "Internet of Things", "Compiler", "Neural Network"]
+  
+- name: Resource-Constrained On-Device Learning by Dynamic Averaging
+  type: "e"
+  url: https://bitbucket.org/zagazao/dynamic-rc-averaging/src/master/
+  description: "L. Heppe, M. Kamp, L. Adilova, D. Heinrich, N. Piatkowski, K. Morik <br/>Resource-Constrained On-Device Learning by Dynamic Averaging <br/> PDFL Workshop @ ECML-PKDD 2020"
+  areas: [ "r" ]
+  biburl: https://dblp.uni-trier.de/rec/conf/pkdd/HeppeKAHPM20.html?view=bibtex
+  keywords: [ "federated", "distributed", "mrf", "resource-aware"]
