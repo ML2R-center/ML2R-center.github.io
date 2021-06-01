@@ -20,6 +20,12 @@
 # q        | area:quantum
 # o        | area:other
 #
+- name: seedpy
+  type: l
+  url: https://github.com/MatthiasJakobs/seedpy
+  description: Easily seed frameworks used for machine learning like Numpy and PyTorch using context managers
+  areas: [ "o" ]
+  keywords: [ "seeding", "numpy", "pytorch"]
 
 - name: PyPruning
   type: l
