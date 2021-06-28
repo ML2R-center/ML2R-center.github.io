@@ -62,13 +62,20 @@
   areas: [ "o" ]
   keywords: [ "julia" ]
 
+- name: Certification of Model Robustness in Active Class Selection
+  type: e
+  url: https://github.com/mirkobunse/AcsCertificates.jl
+  description: M. Bunse and K. Morik at ECML-PKDD 2021.
+  areas: [ "r", "t" ]
+  keywords: [ "learning theory", "label shift", "julia" ]
+
 - name: Optimal Probabilistic Classification in Active Class Selection
   type: e
   url: https://github.com/mirkobunse/acs-icdm20
   description: M. Bunse, D. Weichert, A. Kister, and K. Morik at ICDM 2020.
   areas: [ "r", "t" ]
   biburl: https://dblp.org/rec/conf/icdm/BunseWKM20?view=bibtex
-  keywords: [ "information theory" ]
+  keywords: [ "information theory", "python" ]
 
 - name: "HOPS: Probabilistic Subtree Mining for Small and Large Graphs"
   type: e
