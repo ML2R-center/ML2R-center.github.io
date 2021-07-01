@@ -20,6 +20,13 @@
 # q        | area:quantum
 # o        | area:other
 #
+- name: IREE Bare-Metal Arm Sample
+  type: l
+  url: https://github.com/iml130/iree-bare-metal-arm
+  description: Example for running IREE in a bare-metal Arm environment
+  areas: [ "r" ]
+  keywords: [ "machine learning", "compiler"]
+
 - name: seedpy
   type: l
   url: https://github.com/MatthiasJakobs/seedpy
