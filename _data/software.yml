@@ -143,3 +143,10 @@
   areas: [ "r" ]
   biburl: https://dblp.uni-trier.de/rec/conf/pkdd/HeppeKAHPM20.html?view=bibtex
   keywords: [ "federated", "distributed", "mrf", "resource-aware"]
+  
+- name: ECML PKDD 2021 - Ariel Space Mission Discovery Challenge - Winning Submission
+  type: "e"
+  url: https://github.com/tudo-ls8/ecml-discovery-challenge-ariel-2021
+  description: "M. Bunse, L. Heppe"
+  areas: [ "o" ]
+  keywords: [ "machine learning", "physics", "mrf"]
