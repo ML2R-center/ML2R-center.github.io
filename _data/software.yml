@@ -76,6 +76,13 @@
   areas: [ "r", "t" ]
   keywords: [ "learning theory", "label shift", "julia" ]
 
+- name: Active Class Selection with Uncertain Deployment Class Proportions
+  type: e
+  url: https://github.com/mirkobunse/AcsCertificates.jl
+  description: M. Bunse and K. Morik at the Interactive Adaptive Learning Workshop 2021.
+  areas: [ "r", "t" ]
+  keywords: [ "learning theory", "label shift", "julia", "certification" ]
+
 - name: Optimal Probabilistic Classification in Active Class Selection
   type: e
   url: https://github.com/mirkobunse/acs-icdm20
