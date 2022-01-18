@@ -27,6 +27,13 @@
   areas: [ "r" ]
   keywords: [ "machine learning", "compiler"]
 
+- name: multibarplot
+  type: l
+  url: https://github.com/MatthiasJakobs/multibarplot
+  description: Simple helper function to plot multible bar plots in the same Matplotlib figure
+  areas: ["o"]
+  keywords: ["visualization", "matplotlib"]
+
 - name: seedpy
   type: l
   url: https://github.com/MatthiasJakobs/seedpy
