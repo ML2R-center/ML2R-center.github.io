@@ -164,3 +164,10 @@
   description: "M. Bunse and L. Heppe at ECML-PKDD 2021"
   areas: [ "o" ]
   keywords: [ "machine learning", "physics", "deep learning"]
+  
+- name: "bitvec"
+  type: "l"
+  url: https://github.com/smuecke/bitvec
+  description: Python toolbox for working with binary vectors
+  areas: [ "o" ]
+  keywords: ["numpy", "binary"]
