@@ -20,6 +20,30 @@
 # q        | area:quantum
 # o        | area:other
 #
+- name: Graph Filtration Kernels
+  type: e
+  url: https://github.com/mlai-bonn/wl-filtration-kernel
+  description: Till Schulz, Pascal Welke, Stefan Wrobel, published at AAAI 2022 conference
+  areas: [ "h"]
+  biburl: https://dblp.uni-trier.de/rec/journals/corr/abs-2110-11862.html?view=bibtex
+  keywords: [ "Weisfeiler-Lehman", "Optimal Transport" ]
+
+  - name: A Generalized Weisfeiler-Lehman Graph Kernel
+  type: e
+  url: https://github.com/mlai-bonn/GenWL
+  description: Till Schulz, Pascal Welke, Stefan Wrobel, published in Machine Learning Journal, Springer 2022
+  areas: [ "h"]
+  biburl: https://dblp.uni-trier.de/rec/journals/corr/abs-2101-08104.html?view=bibtex
+  keywords: [ "Weisfeiler-Lehman", "Optimal Transport" ]
+
+- name: Graph-Based Tensile Strength Approximation of Random Nonwoven Materials by Interpretable Regression
+  type: e
+  url: https://github.com/pwelke/random-nonwoven-fibers
+  description: Dario Antweiler, Marc Harmening, Nicole Marheineke, Andre Schmeißer, Raimund Wegener, Pascal Welke, published in Machine Learning with Applications(8), Elsevier 2022
+  areas: [ "h"]
+  biburl: https://scholar.googleusercontent.com/scholar.bib?q=info:Nb4-xUyiDHwJ:scholar.google.com/&output=citation&scisdr=CgUCovdsEOKvlPFoXXw:AAGBfm0AAAAAYntuRXxbR-eG70qNcmF7iJi3GBOzj3Zc&scisig=AAGBfm0AAAAAYntuRc5AJVmiT--navlTDnRo0hd21m3_&scisf=4&ct=citation&cd=-1&hl=en
+  keywords: [ "surrogate models", "linear regression", "feature extraction from graphs"]
+
 - name: IREE Bare-Metal Arm Sample
   type: l
   url: https://github.com/iml130/iree-bare-metal-arm
