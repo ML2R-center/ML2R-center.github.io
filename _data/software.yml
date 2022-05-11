@@ -20,6 +20,7 @@
 # q        | area:quantum
 # o        | area:other
 #
+
 - name: Graph Filtration Kernels
   type: e
   url: https://github.com/mlai-bonn/wl-filtration-kernel
@@ -28,7 +29,7 @@
   biburl: https://dblp.uni-trier.de/rec/journals/corr/abs-2110-11862.html?view=bibtex
   keywords: [ "Weisfeiler-Lehman", "Optimal Transport" ]
 
-  - name: A Generalized Weisfeiler-Lehman Graph Kernel
+- name: A Generalized Weisfeiler-Lehman Graph Kernel
   type: e
   url: https://github.com/mlai-bonn/GenWL
   description: Till Schulz, Pascal Welke, Stefan Wrobel, published in Machine Learning Journal, Springer 2022
