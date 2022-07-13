@@ -21,6 +21,13 @@
 # o        | area:other
 #
 
+- name: anon-github
+  type: l
+  url: https://github.com/MatthiasJakobs/anon-github
+  description: Simple tool that helps you to work with anonymous github accounts for paper submissions
+  areas: [ "o"]
+  keywords: [ "github", "paper submission", "tool" ]
+
 - name: Graph Filtration Kernels
   type: e
   url: https://github.com/mlai-bonn/wl-filtration-kernel
